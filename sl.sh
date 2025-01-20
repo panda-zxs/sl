@@ -1,6 +1,6 @@
 #!/bin/bash
 config_file="$HOME/.ssh/config"
-ssh_client="tssh"
+ssh_client="ssh"
 
 # Check if file exists
 if [ ! -f "${config_file}" ]; then
