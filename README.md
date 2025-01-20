@@ -1,4 +1,4 @@
-# SSH Connection Tool
+# SSH Connection Manager
 # Overview
 This script provides a simple way to manage SSH connections from a centralized configuration file (~/.ssh/config). It allows you to list available connections, select a connection to establish, and connect to a specific host using the tssh command.
 
