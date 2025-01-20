@@ -36,7 +36,6 @@ To connect to a specific host, you can pass the index of the host as an argument
 ```
 ## Requirements
 Bash 4.0 or later
-tssh command (not included in this repository)
 Configuration
 The script reads its configuration from the ~/.ssh/config file. This file should contain a list of hosts in the format:
 
