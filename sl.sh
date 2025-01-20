@@ -1,5 +1,6 @@
 #!/bin/bash
 config_file="$HOME/.ssh/config"
+ssh_client="tssh"
 
 # Check if file exists
 if [ ! -f "${config_file}" ]; then
@@ -26,7 +27,7 @@ select_host() {
     select host in "${hosts[@]}"; do
         if [ -n "$host" ]; then
             echo "Connecting to $host..."
-            tssh "$host"
+            $ssh_client "$host"
             break
         else
             echo "Invalid selection. Please try again."
@@ -43,7 +44,7 @@ elif [ "$#" -eq 1 ]; then
     if [[ $index -ge 1 && $index -le ${#hosts[@]} ]]; then
         host=${hosts[$((index - 1))]}
         echo "Connecting to $host..."
-        tssh "$host"
+        $ssh_client "$host"
     else
         echo "Invalid selection. Please try again."
         exit 1
