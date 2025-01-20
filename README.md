@@ -3,6 +3,11 @@
 This script provides a simple way to manage SSH connections from a centralized configuration file (~/.ssh/config). It allows you to list available connections, select a connection to establish, and connect to a specific host using the tssh command.
 
 # Usage
+Download&Install
+
+```bash
+wget -O ~/.local/bin/sl https://raw.githubusercontent.com/panda-zxs/sl/master/sl.sh && sudo chmod +x ~/.local/bin/sl
+```
 List Available Connections
 To list available SSH connections, simply run the script without any arguments:
 
