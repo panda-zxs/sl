@@ -19,14 +19,6 @@ To connect to a specific host, you can pass the index of the host as an argument
 ./sl.sh 1
 This will connect to the first host in the list.
 ```
-
-## Help
-To display usage information, run the script with no arguments or with the -h flag:
-
-```bash
-# CopyInsert in Terminal
-./sl.sh -h
-```
 ## Requirements
 Bash 4.0 or later
 tssh command (not included in this repository)
