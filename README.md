@@ -17,7 +17,7 @@ To connect to a specific host, you can pass the index of the host as an argument
 ```bash
 # CopyInsert in Terminal
 ./sl.sh 1
-This will connect to the first host in the list.
+# This will connect to the first host in the list.
 ```
 ## Requirements
 Bash 4.0 or later
