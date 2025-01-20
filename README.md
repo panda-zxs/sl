@@ -14,7 +14,15 @@ To list available SSH connections, simply run the script without any arguments:
 ```bash
 # CopyInsert in Terminal
 ./sl.sh
+
+# 1) MY-TEST-GPU
+# 2) MY-TEST
+# : 2
+# Connecting to MY-TEST...
+
 # This will display a list of available connections and prompt you to select one.
+Available SSH connections:
+
 ```
 Connect to a Specific Host
 To connect to a specific host, you can pass the index of the host as an argument:
@@ -22,6 +30,8 @@ To connect to a specific host, you can pass the index of the host as an argument
 ```bash
 # CopyInsert in Terminal
 ./sl.sh 1
+# Connecting to MY-TEST-GPU...
+
 # This will connect to the first host in the list.
 ```
 ## Requirements
